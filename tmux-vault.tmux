@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 CURRENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-chmod +x "$CURRENT_DIR/scripts/vault-open.sh"
-chmod +x "$CURRENT_DIR/scripts/vault-picker.sh"
-chmod +x "$CURRENT_DIR/scripts/vault-state.sh"
 
 get_opt() {
     local option="$1"
