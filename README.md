@@ -35,3 +35,10 @@ set -g @vault_session_prefix 'vault-'
 ## State
 
 Per-directory state stored in `~/.tmux-vault/<session>.json`. Remembers last open file and line number.
+
+```bash
+# Manual state management
+./scripts/vault-state.sh <session> load
+./scripts/vault-state.sh <session> save /path/to/file.md 42
+./scripts/vault-state.sh <session> clear
+```
