@@ -22,7 +22,10 @@ chmod +x ~/.tmux/plugins/tmux-vault-notes/scripts/*.sh
 chmod +x ~/.tmux/plugins/tmux-vault-notes/tmux-vault.tmux
 ```
 
-Then reload tmux config: `prefix + r`
+To install via TPM:
+
+1. `prefix + I` — TPM installs the plugin
+2. `prefix + r` — reload tmux config
 
 ## Configuration
 
