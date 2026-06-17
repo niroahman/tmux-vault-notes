@@ -15,13 +15,6 @@ run '~/.tmux/plugins/tpm/tpm'
 git clone https://github.com/niroahman/tmux-vault-notes ~/.tmux/plugins/tmux-vault-notes
 ```
 
-After installing, make the scripts executable:
-
-```bash
-chmod +x ~/.tmux/plugins/tmux-vault-notes/scripts/*.sh
-chmod +x ~/.tmux/plugins/tmux-vault-notes/tmux-vault.tmux
-```
-
 To install via TPM:
 
 1. `prefix + I` — TPM installs the plugin
