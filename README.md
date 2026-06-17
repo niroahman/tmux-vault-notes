@@ -47,3 +47,7 @@ Per-directory state stored in `~/.tmux-vault/<session>.json`. Remembers last ope
 ./scripts/vault-state.sh <session> save /path/to/file.md 42
 ./scripts/vault-state.sh <session> clear
 ```
+
+## Credits
+
+Inspired by [tmux-claude-session-manager](https://github.com/craftzdog/tmux-claude-session-manager) by craftzdog — same popup architecture and TPM structure.
